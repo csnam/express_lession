@@ -1,6 +1,6 @@
 
 var express = require('express');
-var app = express(); // 객체를 만든다.// 
+var app = express(); // 객체를 만든다.//  간단한 수정
 const hostname = '127.0.0.1';
 const port = 3000;
 //app.set('views','./views_files');
