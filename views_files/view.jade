@@ -1,0 +1,21 @@
+doctype html
+html
+    head
+        meta(charset='utf-8')
+    body
+        h1 Server Side JavaScript
+        //- ul
+        //-     li
+        //-         a(href='/topic/nodjs') node js
+        //-     li
+        //-         a(href='/topic/javascript') java script
+
+        ul
+          each val in topics
+             //- li= val
+             li
+                a(href='/topic/'+ val)= val;
+
+
+
+
