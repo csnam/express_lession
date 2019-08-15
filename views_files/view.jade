@@ -4,7 +4,8 @@ html
         meta(charset='utf-8')
     body
         h1 Server Side JavaScript
-        //- ul
+        //- 비프로그래머 다운 방법
+        //- ul 
         //-     li
         //-         a(href='/topic/nodjs') node js
         //-     li
@@ -12,10 +13,14 @@ html
 
         ul
           each val in topics
-             //- li= val
+             //- li= val  //- ; 쓰면 안됨 
              li
-                a(href='/topic/'+ val)= val;
+                a(href='/topic/'+ val)= val 
+        artcle
+            h2= title
+            = description
 
+           
 
 
 
