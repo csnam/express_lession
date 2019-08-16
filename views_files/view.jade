@@ -3,22 +3,17 @@ html
     head
         meta(charset='utf-8')
     body
-        h1 Server Side JavaScript
-        //- 비프로그래머 다운 방법
-        //- ul 
-        //-     li
-        //-         a(href='/topic/nodjs') node js
-        //-     li
-        //-         a(href='/topic/javascript') java script
-
+        h1 
+            a(href='/topic') Server Side JavaScript
         ul
           each val in topics
-             //- li= val  //- ; 쓰면 안됨 
              li
                 a(href='/topic/'+ val)= val 
         artcle
             h2= title
             = description
+        div 
+            a(href='/topic/new') new
 
            
 
